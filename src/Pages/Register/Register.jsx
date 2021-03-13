@@ -54,7 +54,7 @@ export default function Login() {
       .catch((error) => alert(error.message));
   };
   if (user) {
-    history.push("/profileHome");
+    history.push("/");
     window.location.reload();
   }
 
